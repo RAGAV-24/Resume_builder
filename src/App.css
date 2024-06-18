@@ -1,0 +1,187 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+img {
+  height: 250px;
+  border-radius: 50%;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* General centering styles */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  text-align: center;
+}
+
+/* Specific styles for the form and profile content */
+.form-container,
+.profile-container {
+  max-width: 600px;
+  width: 100%;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container label {
+  margin-top: 1rem;
+}
+
+.form-container input,
+.form-container textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-container button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.form-container button:hover {
+  background-color: #45a049;
+}
+
+.response-message {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.form-container button[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  background-color: #1a1a1a;
+  color: rgba(255, 255, 255, 0.87);
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+/* Optional: Adjusted styles for the footer content */
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content nav {
+  margin-bottom: 20px;
+}
+
+.footer-content nav a {
+  margin: 0 15px;
+  color: rgba(255, 255, 255, 0.87);
+  text-decoration: none;
+}
+
+.footer-content nav a:hover {
+  text-decoration: underline;
+}
+
+.footer-content .social-media a {
+  margin: 0 10px;
+  color: rgba(255, 255, 255, 0.87);
+  text-decoration: none;
+}
+
+.footer-content .social-media a:hover {
+  text-decoration: underline;
+}
+
+.footer-content .newsletter {
+  margin: 20px 0;
+}
+
+.footer-content .newsletter input {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer-content .newsletter button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #646cff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.footer-content .newsletter button:hover {
+  background-color: #535bf2;
+}
+
+.footer-content p {
+  margin-top: 20px;
+}

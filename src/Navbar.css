@@ -1,0 +1,40 @@
+/* src/Navbar.css */
+.navbar {
+    background-color: #333;
+    position: fixed; /* Make the navbar fixed at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Span the full width of the viewport */
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+  
+  .navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Align items to the start (left) */
+  }
+  
+  .navbar-item {
+    padding: 0 15px; /* Add some padding between items */
+  }
+  
+  .navbar-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar-item a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add some padding to the top of the page content to avoid overlap with fixed navbar */
+  body {
+    padding-top: 50px; /* Adjust this value if your navbar height changes */
+  }
+  

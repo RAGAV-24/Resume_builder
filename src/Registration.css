@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .r1 {
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+    align-items: center; /* Center the container vertically */
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .registration-form-container {
+    max-width: 600px;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+  }
+  
+  .registration-form-container h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .registration-form-container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .registration-form-container label {
+    margin-top: 1rem;
+  }
+  
+  .registration-form-container input,
+  .registration-form-container textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .registration-form-container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .registration-form-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .response-message {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .registration-form-container button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
